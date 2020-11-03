@@ -1,4 +1,5 @@
 <template>
+  <h1>Welcome to my pull request</h1>
   <img alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="Hello Vue 3.0 + Vite" />
 </template>
