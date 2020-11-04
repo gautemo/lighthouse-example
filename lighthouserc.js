@@ -1,7 +1,8 @@
 module.exports = {
   ci: {
     collect: {
-      isSinglePageApplication: true
+      isSinglePageApplication: true,
+      url: ['/', '/about', '404']
     },
     assert: {
       assertions: {

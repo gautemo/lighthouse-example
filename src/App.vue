@@ -1,6 +1,12 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3.0 + Vite" />
+  <header>
+    <h1>Lighthouse example</h1>
+    <nav>
+      <router-link to="/">Go to Home</router-link>
+      <router-link to="/about">Go to About</router-link>
+    </nav>
+  </header>
+  <router-view></router-view>
 </template>
 
 <script>
