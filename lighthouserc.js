@@ -10,8 +10,9 @@ module.exports = {
       assertions: {
         "categories:performance": ["error", { "minScore": 0.9 }],
         "categories:accessibility": ["error", { "minScore": 1 }],
-        "meta-description": "off",
-        "robots-txt": "off",
+        "categories:seo": ["error", { "minScore": 0.9 }],
+        "categories:best-practices": ["error", { "minScore": 0.9 }],
+        "unsized-images": "off"
       }
     },
     upload: {

@@ -8,3 +8,11 @@
   </header>
   <router-view></router-view>
 </template>
+
+<style scoped>
+nav{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+</style>

@@ -1,6 +1,9 @@
 <template>
   <h1>Yo</h1>
-  <p>You made me loop <span>{{times}}</span> times!</p>
+  <img src="../assets/joshua-hibbert-Pn6iimgM-wo-unsplash.jpg" alt="a lighthouse" height="500">
+  <p>
+    You made me loop <span>{{ times }}</span> times!
+  </p>
 </template>
 
 <script>
